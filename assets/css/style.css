@@ -436,6 +436,33 @@ footer .ma-footrt-partthree p {
     .ma-about-cardOne p, .ma-Friendly-part .ma-Friendly-package p {
         width: auto;
     }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    form h1 {
+        width: auto;
+    }
+
+    form input {
+        width: 100%;
+        height: 80px;
+        border-radius: 16px;
+        background: #FFF;
+        border: none;
+    }
+
+    .ma-footrt-partTow {
+        margin-bottom: 50px;
+    }
+
+    .ma-footrt-partTow p {
+        width: auto;
+    }
 }
 
 @media screen and (max-width:400px) {
